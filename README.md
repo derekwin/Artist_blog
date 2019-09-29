@@ -1,6 +1,6 @@
 # Artist
 ## 介绍
-demo演示站点: [www.geeklab.club](http://www.geeklab.club/)
+demo演示站点: [seclee.com](http://www.seclee.com/)
 
 Artist采用前后端分离构建，前端由vue搭配quasar实现,后端由flask实现api，数据库目前采用mysql。多端自适应。
 
