@@ -80,3 +80,4 @@ npm run build
 - vue create app
 - cd app/
 - vue add quasar
+- npm install vue-router
