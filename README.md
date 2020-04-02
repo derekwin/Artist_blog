@@ -6,7 +6,7 @@
      An open source adaptive blog based on vue, quasar and django
   </h3>
 
-  [Download(closed recently)](https://https://github.com/derekwin/Artist_blog) | [Homepage](http://www.seclee.com/) | [Blog](https://derekwin.github.io)
+  [Download](https://https://github.com/derekwin/Artist_blog) | [Homepage](http://www.seclee.com/) | [Blog](https://derekwin.github.io)
 
 </div>
 
@@ -37,7 +37,7 @@ Webpack catches "src" attribute on native "" tags only, so you need to force thi
 ~后台的markdown编辑器基于[mavonEditor](https://github.com/hinesboy/mavonEditor)~->`新后台的方案后续再定`。
 
 
-## 在本地运行(2020.4.2->目前不可运行，升级维护中)
+## 在本地运行
 ### 克隆项目
 ```
 git clone https://github.com/derekwin/Artist_blog
@@ -46,6 +46,10 @@ git clone https://github.com/derekwin/Artist_blog
 ### 安装npm依赖
 ```
 npm install
+
+一点小问题
+sudo cnpm install --save axios
+asset/self/mid文件夹中需要手动添加名为1.jpg~4.jpg四张导航图片
 ```
 
 ### 运行
@@ -66,10 +70,10 @@ npm run build
 
 ## github项目完整性进度
 - 2019.9.8 上传了前端部分，包括后台的前端。~由于时间安排问题，后端的更新预计2020.1.1之后才能正常进行。~
-- `2020.4.2 quasar最近半年来的更新迭代有点不小，现在的blog版本已经没法正常编译，运行。之前一直在试的flask方案最终放弃，近期打算用最新的quasar-vue-cli版本来重写这个博客应用，吸取前面的教训，把各个模块做的更整洁可复用点。后端抛弃flask，转向django，没办法，用django真的省太多事儿了，同时用django的话，我打算把原来vue实现的后端改用django的模块重写，这样能更统一一点。`
+- `2020.4.2 flask方案最终放弃，近期打算用最新的quasar-vue-cli版本来重写这个博客应用，吸取前面的教训，把各个模块做的更整洁可复用点。后端抛弃flask，转向django，没办法，用django真的省太多事儿了，同时用django的话，我打算把原来vue实现的后端改用django的模块重写，这样能更统一一点。下一步的目标是将各个页面更加模块化，增强blog可扩展性`
 
 
-## 环境配置避坑指南
+## 开发环境配置避坑指南
 - sudo apt-get install nodejs
 - npm install n -g
 - n stable
