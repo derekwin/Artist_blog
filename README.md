@@ -16,7 +16,7 @@
 </div>
 
 ## 介绍
-演示站点: [seclee.com](http://www.seclee.com/)
+~演示站点: [seclee.com](http://www.seclee.com/)~
 
 Artist采用前后端分离构建，前端由vue搭配quasar实现,后端由~flask~->`django`实现api，数据库目前采用~mysql~->`sqlite`。多端自适应。
 
